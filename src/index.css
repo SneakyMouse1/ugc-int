@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Inter:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --color-brand-green: #1E3020;
+  --color-brand-green-mid: #2C3E2D;
+  --color-brand-green-light: #3A5440;
+  --color-brand-gold: #D2A836;
+  --color-brand-gold-light: #D2A836;
+  --color-brand-charcoal: #1A1A1A;
+  --color-brand-slate: #4A4A4A;
+  --color-brand-sand: #F0EBE1;
+  --color-brand-stone: #D0C9BC;
+  --color-brand-offwhite: #F7F6F3;
+  --color-brand-white: #FFFFFF;
+  --color-brand-dark: #111111;
+
+  /* Typography scale */
+  --text-label-2xs: 0.5625rem;
+  --text-label-xs: 0.625rem;
+  --text-label-sm: 0.6875rem;
+  --text-label: 0.75rem;
+  --text-body-xs: 0.8125rem;
+  --text-body-sm: 0.875rem;
+  --text-body: 0.9375rem;
+  --text-body-md: 1rem;
+  --text-body-lg: 1.0625rem;
+  --text-body-xl: 1.125rem;
+  --text-heading-xs: 1.25rem;
+  --text-heading-sm: 1.375rem;
+  --text-heading-md: 2.25rem;
+  --text-heading-lg: 3rem;
+  --text-heading-xl: 3.5rem;
+  --text-display-2xs: 2.625rem;
+  --text-display-xs: 3.375rem;
+  --text-display-sm: 4.25rem;
+  --text-display: 5rem;
+}
+
+/* Absolute sharp corners, no exceptions */
+*,
+*::before,
+*::after {
+  border-radius: 0px !important;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+  background-color: #F7F6F3;
+}
+
+/* Typography Focus States & Base Selection overrides */
+::selection {
+  background-color: #D2A836;
+  color: #FFFFFF;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

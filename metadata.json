@@ -1,0 +1,6 @@
+{
+  "name": "UGC International",
+  "description": "UK-based international trade and logistics company specialising in equipment supply, agricultural machinery, spare parts and multimodal logistics across Europe, Asia, Africa, the Americas and the Middle East.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
