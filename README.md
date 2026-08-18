@@ -1,4 +1,4 @@
-# UGC International
+# United Global Commerce LTD
 
 > **United Global Commerce LTD** — UK-based international trade house and logistics partner specializing in machinery, industrial equipment supply, spare parts sourcing, and multimodal project cargo freight across six continents.
 
@@ -122,9 +122,9 @@ Edit `.env` with your credentials:
 # SMTP Mail Configuration
 SMTP_HOST=smtp.yourmailserver.com
 SMTP_PORT=587
-SMTP_USER=contact@ugc-int.com
+SMTP_USER=info@ugc-int.com
 SMTP_TOKEN=your_smtp_password_or_app_token
-CONTACT_EMAIL=British.UGC@gmail.com
+CONTACT_EMAIL=info@ugc-int.com
 
 # Cloudflare Turnstile Security
 TURNSTILE_SECRET_KEY=0x4AAAAAA...your_secret_key
@@ -180,7 +180,6 @@ npm run preview
 ## Corporate & Legal Information
 
 - **Company Name:** United Global Commerce LTD
-- **Trading As:** UGC International
 - **Company Number:** 15831457
 - **EORI Number:** GB099121887000
 - **Registered Office:** 347 Barking Road, London, E13 8EE, United Kingdom

@@ -41,7 +41,7 @@ export default function About() {
             transition={{ duration: 0.6, ease: 'easeOut', delay: 0.1 }}
           >
             <p className="font-medium text-brand-green text-body-xl leading-relaxed">
-              UGC International is an international trade and logistics company based in the United Kingdom, operating across six continents with a focus on equipment supply, industrial sourcing and multimodal logistics solutions.
+              United Global Commerce LTD is an international trade and logistics company based in the United Kingdom, operating across six continents with a focus on equipment supply, industrial sourcing and multimodal logistics solutions.
             </p>
             <p>
               We work with manufacturers, importers, exporters and project owners who require reliable access to international markets, complex supply chains and time-critical deliveries.

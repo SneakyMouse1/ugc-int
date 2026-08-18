@@ -72,7 +72,7 @@ export default function Geography() {
             Our Trade Directions
           </h2>
           <p className="font-sans text-body-md md:text-body-xl text-brand-slate leading-relaxed font-light">
-            Through established commercial agreements and local customs representation, UGC International operates active trade lanes linking major production regions to global development hubs.
+            Through established commercial agreements and local customs representation, United Global Commerce LTD operates active trade lanes linking major production regions to global development hubs.
           </p>
         </motion.div>
 

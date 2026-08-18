@@ -78,8 +78,7 @@ export default function LegalModals({ activeModal, onClose }) {
             <p><strong>Jurisdiction of Incorporation:</strong> Registered in England and Wales</p>
             <p><strong>Registered Office:</strong> 347 Barking Road, London, England, E13 8EE, United Kingdom</p>
             <p><strong>EORI Number:</strong> GB099121887000</p>
-            <p><strong>Contact Email:</strong> <a href="mailto:British.UGC@gmail.com" className="text-brand-gold-light underline">British.UGC@gmail.com</a></p>
-            <p><strong>Telephone:</strong> <a href="tel:+37066266400" className="hover:underline">+370 662 66400</a> / <a href="tel:+48666557461" className="hover:underline">+48 666 557 461</a></p>
+            <p><strong>Contact Email:</strong> <a href="mailto:info@ugc-int.com" className="text-brand-gold-light underline">info@ugc-int.com</a></p>
           </div>
 
           {/* Privacy Policy Content */}
@@ -97,7 +96,7 @@ export default function LegalModals({ activeModal, onClose }) {
                 <p>We process personal data submitted via our website contact form or directly via corporate correspondence:</p>
                 <ul className="list-disc pl-5 space-y-1 text-brand-stone/80">
                   <li>Full Name and Job Title</li>
-                  <li>Corporate Email Address and Business Phone Number</li>
+                  <li>Corporate Email Address</li>
                   <li>Company / Entity Name and Jurisdiction</li>
                   <li>Details of commercial enquiries, supply specifications, or trade quotes</li>
                   <li>Technical diagnostics data (IP address, user agent, timestamps, Cloudflare Turnstile security tokens)</li>
@@ -145,10 +144,7 @@ export default function LegalModals({ activeModal, onClose }) {
                 <div className="space-y-1 text-sm text-brand-stone/90">
                   <p className="flex items-center gap-2 text-brand-gold-light">
                     <Mail size={16} />
-                    <a href="mailto:British.UGC@gmail.com" className="underline font-medium">British.UGC@gmail.com</a>
-                  </p>
-                  <p className="text-xs text-brand-stone/75 pt-1">
-                    Telephone: <a href="tel:+37066266400" className="hover:underline text-brand-stone/90">+370 662 66400</a> · <a href="tel:+48666557461" className="hover:underline text-brand-stone/90">+48 666 557 461</a>
+                    <a href="mailto:info@ugc-int.com" className="underline font-medium">info@ugc-int.com</a>
                   </p>
                 </div>
               </section>

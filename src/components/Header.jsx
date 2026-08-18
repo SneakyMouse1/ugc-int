@@ -63,7 +63,7 @@ export default function Header() {
           }}
           className="flex flex-col text-left group"
         >
-          <img src="/logo.png" alt="UGC International Logo" className="h-[60px] w-auto" />
+          <img src="/logo.png" alt="United Global Commerce LTD Logo" className="h-[60px] w-auto" />
         </a>
 
         {/* Desktop Navigation Links */}

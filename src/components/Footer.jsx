@@ -92,15 +92,11 @@ export default function Footer({ onOpenModal, onOpenCookieSettings }) {
               <div className="pt-2 space-y-1">
                 <div>
                   <a 
-                    href="mailto:British.UGC@gmail.com" 
+                    href="mailto:info@ugc-int.com" 
                     className="text-brand-gold-light hover:text-brand-white underline transition-colors duration-200 font-semibold"
                   >
-                    British.UGC@gmail.com
+                    info@ugc-int.com
                   </a>
-                </div>
-                <div className="text-xs text-brand-stone/80 space-y-0.5 pt-1">
-                  <p><a href="tel:+37066266400" className="hover:text-brand-gold-light transition-colors">+370 662 66400</a></p>
-                  <p><a href="tel:+48666557461" className="hover:text-brand-gold-light transition-colors">+48 666 557 461</a></p>
                 </div>
               </div>
             </address>

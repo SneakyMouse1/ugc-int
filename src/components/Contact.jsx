@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Mail, CheckCircle2, Phone, Clock, ShieldCheck, ArrowRight, Check, ChevronDown } from 'lucide-react';
+import { Mail, CheckCircle2, Clock, ShieldCheck, ArrowRight, Check, ChevronDown } from 'lucide-react';
 
 export default function Contact({ onOpenModal }) {
   const categories = [
@@ -195,42 +195,14 @@ export default function Contact({ onOpenModal }) {
               
               <div className="flex flex-col divide-y divide-brand-green-light/40 font-sans text-sm">
                 <a 
-                  href="mailto:British.UGC@gmail.com" 
+                  href="mailto:info@ugc-int.com" 
                   className="py-3 flex items-center justify-between group transition-colors duration-200 text-left hover:text-brand-gold"
                 >
                   <div className="flex items-center gap-3">
                     <Mail size={16} className="text-brand-gold shrink-0 transition-transform group-hover:scale-110" />
                     <div>
                       <div className="text-[10px] uppercase tracking-wider text-brand-white/50 font-medium">Headquarters Desk</div>
-                      <span className="text-brand-white font-medium group-hover:text-brand-gold transition-colors">British.UGC@gmail.com</span>
-                    </div>
-                  </div>
-                  <ArrowRight size={14} className="text-brand-gold opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0 transition-all duration-200" />
-                </a>
-
-                <a 
-                  href="tel:+37066266400" 
-                  className="py-3 flex items-center justify-between group transition-colors duration-200 text-left hover:text-brand-gold"
-                >
-                  <div className="flex items-center gap-3">
-                    <Phone size={16} className="text-brand-gold shrink-0 transition-transform group-hover:scale-110" />
-                    <div>
-                      <div className="text-[10px] uppercase tracking-wider text-brand-white/50 font-medium">Baltic Logistics Desk</div>
-                      <span className="text-brand-white font-medium group-hover:text-brand-gold transition-colors">+370 662 66400</span>
-                    </div>
-                  </div>
-                  <ArrowRight size={14} className="text-brand-gold opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0 transition-all duration-200" />
-                </a>
-
-                <a 
-                  href="tel:+48666557461" 
-                  className="py-3 flex items-center justify-between group transition-colors duration-200 text-left hover:text-brand-gold"
-                >
-                  <div className="flex items-center gap-3">
-                    <Phone size={16} className="text-brand-gold shrink-0 transition-transform group-hover:scale-110" />
-                    <div>
-                      <div className="text-[10px] uppercase tracking-wider text-brand-white/50 font-medium">Central Europe Desk</div>
-                      <span className="text-brand-white font-medium group-hover:text-brand-gold transition-colors">+48 666 557 461</span>
+                      <span className="text-brand-white font-medium group-hover:text-brand-gold transition-colors">info@ugc-int.com</span>
                     </div>
                   </div>
                   <ArrowRight size={14} className="text-brand-gold opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0 transition-all duration-200" />
